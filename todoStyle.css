@@ -1,0 +1,169 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  width: 500px;
+  margin: 10px auto;
+  background: #37474F;
+}
+#inputBox {
+  text-align: center;
+  height: 30px;
+  border: 0px;
+  background: #37474F;
+  color: white;
+}
+#inputBox:focus {
+  outline: none;
+  border-bottom: 1px solid #4DD0E1;
+}
+#inputBox::placeholder {
+  color: white;
+  opacity: 0.3;
+}
+#btn {
+  cursor: pointer;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #0097A7;
+  border: 0px;
+  color: white;
+  height: 20px;
+}
+span {
+  color: orange;
+}
+h3 {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.newItem {
+  cursor: pointer;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  margin-left: -20px;
+}
+.delBtn {
+  cursor: pointer;
+  background: white;
+  float: right;
+  font-family: monospace;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline:none;
+  color: white;
+}
+.delText {
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  color: #FF6F00;
+}
+.edtBtn {
+  cursor: pointer;
+  background: white;
+  float: right;
+  font-family: monospace;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline:none;
+  color: white;
+}
+.done {
+  text-decoration: line-through;
+  color: skyblue;
+}
+.hideMessage {
+  display: none;
+}
+ul {
+  list-style-type: circle;
+}
+.addWarning{
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  color: #FFCC80;
+}
+/*.line {
+  width: 200px;
+  height: 1px;
+  background: white;
+  margin: 1px auto;
+}*/
+.buttonHolder {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.buttonHolder2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#btnTodo {
+  margin: 10px;
+  width: 120px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  border-bottom: 1px solid orange;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+}
+#btnDark {
+  font-size: 10px;
+  margin: 10px;
+  width: 60px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+}
+#btnLight {
+  font-size: 10px;
+  margin: 10px;
+  width: 60px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+}
+.but {
+  font-size: 10px;
+  margin: 10px;
+  width: 60px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+}
+.delIcon {
+  width: 20px;
+  height: auto;
+}
+.editImage {
+  width: 20px;
+  height: auto;
+}
